@@ -1,0 +1,100 @@
+body{
+    font-family: Oleo Script;
+    margin: 0;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: black;
+    color: #fff;
+    height: 100vh;
+    width: 100vw;
+}
+.navbar{
+    display: flex;
+    background-color: grey;
+    padding-bottom: 20%;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: black;
+    flex: 1;
+    cursor: pointer;
+}
+.logo{
+    font-size: 1.5rem;
+    color: rgb(90, 222, 90);
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 0;
+    gap: 5px;
+}
+.hero-section{
+    display: flex;
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+.heading{
+    background-color: green;
+    padding: 5px;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.span{
+    display: flex;
+    padding: 5px;
+}
+#s-1,#s-2{
+    background-color: rgba(139, 128, 128, 0.574);
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 5px;
+    width: 37vw;
+    height: 10vw;
+}
+#ss-1,#ss-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(149, 139, 139);
+    border-radius: 10px;
+}
+audio{
+   margin-left: 50px;
+    width: 70%;
+    height: 50%;
+    padding: 5px;
+}
+
+
+.bottom-player {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bottom-player img {
+    width: 30px;
+    height: 30px;
+}
+
+.bottom-player audio {
+    width: 200px;
+}
